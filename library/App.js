@@ -7,15 +7,14 @@
  */
 
 import React, {Fragment} from 'react';
-import { Container } from 'semantic-ui-react';
-import { Text, View } from 'react-native';
+import { Container, Text } from 'native-base';
 
 const App = () => {
   return (
     <Fragment>
-      <View>
-        <Text>this is test</Text>
-      </View>
+        <Container>
+            <Text>Open up App.js to start working on your app!</Text>
+        </Container>
     </Fragment>
   );
 };
